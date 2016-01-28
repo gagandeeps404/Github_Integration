@@ -1,0 +1,19 @@
+img{
+	width: 230px;
+	height: 230px;
+}
+
+table thead, tbody, tr, td {
+	border: 1px solid black;
+}
+
+thead{
+	background-color: #4CAF50;
+}
+
+table{
+	float:left;
+	
+}
+
+

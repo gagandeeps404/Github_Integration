@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<!--[if lt IE9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<link rel="stylesheet" href="text.css" media="screen , projection">
+	
+  	</head>
+	<body>
+	<div style="float:left">
+  	<input type="text" id="userId" value="btford"/>
+  	<button id="getDataBtn"> User Details </button>
+  	<button id="getRepo"> Get Repositories </button>
+  	<div id="userInfo">
+    <div>Username : <span id="username"></span></div>
+    <img id="avatar" />
+    <div>Name : <span id="name"></span></div>
+    <div>Company : <span id="company"></span></div>
+    
+  </div>
+</div>
+<button id="delete" type="button">Delete</button>
+  <table style="float:left" id="repoInfo">
+    <thead>
+      <tr>
+        <td ><input id="checkAll" type="checkbox"></td>
+        <td>Name</td>
+        <td>Detail</td>
+        <td>Language</td>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+ 
+
+<script src="script.js"></script>
+<script src="jquery.js"></script>
+	</body>
+	</html>
